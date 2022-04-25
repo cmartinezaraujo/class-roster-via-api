@@ -1,1 +1,30 @@
 /* My Styles */
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+figure{
+    position: relative;
+}
+
+figcaption{
+    position: absolute;
+    margin-top: 85%;
+    color: white;
+    font-size: 1.5em;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}

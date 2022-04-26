@@ -1,4 +1,11 @@
 /* My Styles */
+@import url('./author.css');
+:root{
+    --container-width: 400px;
+    --container-height: 400px;
+    --name-font-family: 'Author-Semibold', 'sans';
+}
+
 body{
     display: flex;
     flex-flow: row wrap;
@@ -13,9 +20,10 @@ body{
 
 figure{
     position: relative;
+    margin: 0;
     overflow: hidden;
-    width: 500px;
-    height: 500px;
+    width: var(--container-width);
+    height: var(--container-height);
     z-index: 0;
 }
 
@@ -23,13 +31,14 @@ figcaption{
     position: absolute;
     margin-top: 85%;
     color: white;
+    font-family: var(--name-font-family);
     font-size: 2.5em;
     z-index: 1;
 }
 
 img{
-    width: 500px;
-    height: 500px;
+    width: var(--container-width);
+    height: var(--container-height);
     object-fit: cover;
     transform: scale(1);
     transition: filter,transform 1s;
@@ -43,13 +52,20 @@ figure:hover > img{
     filter: grayscale(0%);
 }
 
+figure:focus > img{
+    transition: filter, transform 1s;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+
 
 .overlay{
     position: absolute;
     top: 0;
     left: 0;
-    width: 500px;
-    height: 500px;
+    width: var(--container-width);
+    height: var(--container-height);
     background: linear-gradient(to top right, rgba(255,35,35,0.6194852941176471) 0%,rgba(255,35,35,0) 100%);
     z-index: 0;
     transition: opacity 1s;
@@ -57,6 +73,11 @@ figure:hover > img{
 }
 
 figure:hover > .overlay{
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+figure:focus > .overlay{
     transition: opacity 1s;
     opacity: 1;
 }

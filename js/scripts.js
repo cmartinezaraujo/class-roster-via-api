@@ -23,6 +23,7 @@ fetch(url)
           <figure>
             <figcaption>${student.name}</figcaption>
             <img src="${student.image.url}" alt="Placeholder" />
+            <div class="overlay"></div>
           </figure>
        `;
 

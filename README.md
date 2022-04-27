@@ -19,10 +19,6 @@ https://v1.nocodeapi.com/pmanikoth/webflow/wtzODovSIJsRXhZg
 
 ## Sources
 
-List your sources here
+[Inspired by](https://codemyui.com/wp-content/uploads/2021/05/Grayscale-To-Colour-Animation-On-Hover-For-Team-Section.mp4)
 
-## Why Does This Exist?
-
-Webflow (and many others) have a no-code CMS, and GUI for designing the templates. Webflow (and many others) also have an API that is accessible as a _headless CMS_.
-
-[WebFlow CMS](https://university.webflow.com/lesson/intro-to-webflow-cms)
+[Author font via Font Share](https://www.fontshare.com/fonts/author)

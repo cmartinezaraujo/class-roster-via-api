@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6e03c5dc-c256-42ae-8b7e-ca605697664b/deploy-status)](https://app.netlify.com/sites/web3-class-roster/deploys)
 
+[Class Roster](https://web3-class-roster.netlify.app)
+
 ## What Is This?
 
 Get, Show, and Style a Class Roster via our API data
@@ -22,3 +24,5 @@ https://v1.nocodeapi.com/pmanikoth/webflow/wtzODovSIJsRXhZg
 [Inspired by](https://codemyui.com/wp-content/uploads/2021/05/Grayscale-To-Colour-Animation-On-Hover-For-Team-Section.mp4)
 
 [Author font via Font Share](https://www.fontshare.com/fonts/author)
+
+![Preview](ScreenShot.png)
